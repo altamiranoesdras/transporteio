@@ -16,33 +16,31 @@ use Illuminate\Support\Facades\Route;
 
 Auth::routes(['verify' => true]);
 
-Route::get('login/{driver}', [LoginController::class,'redirectToProvider'])->name('social_auth');
-Route::get('login/{driver}/callback', [LoginController::class,'handleProviderCallback']);
 
 
+
+
+Route::get('/', [HomeAdminController::class,'index'])->name('index');
+Route::get('/home', [HomeAdminController::class,'index'])->name('home');
 
 /**
  * Rutas admin
  */
-Route::group(['prefix' => 'admin','middleware' => ['role:Admin|Superadmin|Developer','auth']], function () {
+Route::group(['prefix' => 'admin','middleware' => ['auth']], function () {
 
 
     Route::group(['as' => 'admin.'],function (){
 
+
         Route::get('/', [HomeAdminController::class,'index'])->name('index');
         Route::get('/home', [HomeAdminController::class,'index'])->name('home');
+        Route::get('/ayuda', [HomeAdminController::class,'ayuda'])->name('ayuda');
+        Route::get('/informacion', [HomeAdminController::class,'informacion'])->name('informacion');
+        Route::get('/ejemplos', [HomeAdminController::class,'ejemplos'])->name('ejemplos');
+        Route::get('/galeria', [HomeAdminController::class,'galeria'])->name('galeria');
+
         Route::get('/dashboard', [HomeAdminController::class,'dashboard'])->name('dashboard');
         Route::get('/calendar', [HomeAdminController::class,'calendar'])->name('calendar');
-
-    });
-
-    Route::group(['prefix' => 'dev','as' => 'dev.'],function (){
-
-        Route::get('prueba/api',[PruebaApiController::class,'index'])->name('prueba.api');
-
-        Route::get('passport/clients', [PassportClientsController::class,'index'])->name('passport.clients');
-
-        Route::resource('configurations', ConfigurationController::class);
 
     });
 
@@ -72,28 +70,4 @@ Route::group(['prefix' => 'admin','middleware' => ['role:Admin|Superadmin|Develo
 });
 
 
-
-
-
-/**
- * Rutas web
- */
-Route::group(['prefix' => ''], function () {
-
-
-    Route::get('/', [HomeAdminController::class,'index'])->name('index');
-    Route::get('home', [HomeAdminController::class,'index'])->name('home');
-//    Route::get('/', [HomeController::class,'index'])->name('index');
-//    Route::get('home', [HomeController::class,'index'])->name('home');
-
-    Route::get('about', [HomeController::class,'about'])->name('about');
-    Route::get('contact', [HomeController::class,'contact'])->name('contact');
-    Route::get('cambio/idioma/{lang}', [HomeController::class,'cambioIdioma'])
-        ->where([
-            'lang' => 'en|es'
-        ])
-        ->name('cambio.idioma');
-
-
-});
 

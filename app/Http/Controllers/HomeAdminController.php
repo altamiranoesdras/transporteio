@@ -50,4 +50,24 @@ class HomeAdminController extends Controller
     {
         return view('calendar');
     }
+
+    public function ayuda()
+    {
+        return view('ayuda');
+    }
+
+    public function informacion()
+    {
+        return view('informacion');
+    }
+
+    public function ejemplos()
+    {
+        return view('ejemplos');
+    }
+
+    public function galeria()
+    {
+        return view('galeria');
+    }
 }
