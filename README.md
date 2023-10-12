@@ -27,7 +27,7 @@
     git clone https://github.com/altamiranoesdras/transporteio.git
 
 ##### Acceder a la carpeta
-    cd transporteio3
+    cd transporteio
 
 ##### instalar dependencias
 
