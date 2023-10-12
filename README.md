@@ -2,11 +2,11 @@
 
 ### Programas necesarios
 
-#### Laragon https://sourceforge.net/projects/laragon/files/releases/4.0/laragon-full.exe
+#### Laragon https://github.com/leokhoa/laragon/releases/download/6.0.0/laragon-wamp.exe
 
-#### Visual studio code  https://code.visualstudio.com/Download
+#### Visual studio code  https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user
 
-### Crear una base de datos llamada sysbase
+### Crear una base de datos llamada transporteio
 
      (Esto en cualquier administrador de base de datos como heidi)
 
@@ -24,10 +24,10 @@
 ![](terminal_laragon.png)
 
 ##### clonar repo
-    git clone https://github.com/altamiranoesdras/sysbase3.git
+    git clone https://github.com/altamiranoesdras/transporteio.git
 
 ##### Acceder a la carpeta
-    cd sysbase3
+    cd transporteio3
 
 ##### instalar dependencias
 
@@ -53,7 +53,7 @@
 
 ![](recargar_webserver_laragon.png)
 
-### Puedes ingresar por el navegador con  http://sysbase.local/
+### Puedes ingresar por el navegador con  http://transporteio.local/
 
 #### Credenciales de acceso
     Usuario : dev
