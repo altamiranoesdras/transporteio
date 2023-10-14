@@ -208,8 +208,8 @@ class OptionsTableSeeder extends Seeder
                 'nombre' => 'Ayuda',
                 'option_id' => NULL,
                 'orden' => 0,
-                'ruta' => 'x',
-                'updated_at' => '2023-10-10 22:20:26',
+                'ruta' => 'admin.ayuda',
+                'updated_at' => '2023-10-13 19:56:28',
             ),
             12 => 
             array (
@@ -224,8 +224,8 @@ class OptionsTableSeeder extends Seeder
                 'nombre' => 'Informacion',
                 'option_id' => NULL,
                 'orden' => 0,
-                'ruta' => 'x',
-                'updated_at' => '2023-10-10 22:20:55',
+                'ruta' => 'admin.informacion',
+                'updated_at' => '2023-10-13 19:56:54',
             ),
             13 => 
             array (
@@ -240,8 +240,8 @@ class OptionsTableSeeder extends Seeder
                 'nombre' => 'Ejemplos',
                 'option_id' => NULL,
                 'orden' => 0,
-                'ruta' => 'x',
-                'updated_at' => '2023-10-10 22:21:44',
+                'ruta' => 'admin.ejemplos',
+                'updated_at' => '2023-10-13 19:57:04',
             ),
             14 => 
             array (
@@ -256,8 +256,8 @@ class OptionsTableSeeder extends Seeder
                 'nombre' => 'Galería',
                 'option_id' => NULL,
                 'orden' => 0,
-                'ruta' => 'x',
-                'updated_at' => '2023-10-10 22:22:17',
+                'ruta' => 'admin.galeria',
+                'updated_at' => '2023-10-13 19:57:13',
             ),
         ));
         
