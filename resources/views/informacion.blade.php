@@ -39,9 +39,32 @@
 
                      <!--            Contenido
                      ------------------------------------------------------------------------>
-                     <p>
-                        Esto es una prueba
-                     </p>
+                     <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;text-align:justify;font-size:12.0pt;font-family:"Times New Roman",serif;line-height:150%;'><span style="line-height:150%;color:black;">Universidad Mariano G&aacute;lvez de Guatemala</span></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;text-align:justify;font-size:12.0pt;font-family:"Times New Roman",serif;line-height:150%;'><span style="line-height:150%;color:black;">Ingenier&iacute;a en Sistemas</span></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;text-align:justify;font-size:12.0pt;font-family:"Times New Roman",serif;line-height:150%;'><span style="line-height:150%;color:black;">Investigaci&oacute;n de Operaciones</span></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;text-align:justify;font-size:12.0pt;font-family:"Times New Roman",serif;line-height:150%;'><span style="line-height:150%;color:black;">Ingeniero Richard Ortiz</span></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;text-align:justify;font-size:12.0pt;font-family:"Times New Roman",serif;line-height:150%;'><span style="line-height:150%;">&nbsp;</span></p>
+<p style='margin-top:12.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:0cm;text-align:center;font-size:12.0pt;font-family:"Times New Roman",serif;line-height:150%;'><span style="line-height:150%;color:black;">&nbsp;</span></p>
+<p style='margin-top:12.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:70.8pt;text-align:center;font-size:12.0pt;font-family:"Times New Roman",serif;line-height:150%;'><strong><span style="line-height:150%;color:black;"><br>&nbsp;<br>&nbsp;<br>&nbsp;Investigaci&oacute;n sobre Redes de transporte y Utilidad optimizaci&oacute;n de Inventarios</span></strong></p>
+<p style='margin-top:12.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:0cm;text-align:justify;font-size:12.0pt;font-family:"Times New Roman",serif;line-height:150%;'><strong><span style="line-height:150%;color:black;">&nbsp;</span></strong></p>
+<p style='margin:0cm;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;line-height:150%;'><span style='font-size:16px;line-height:150%;font-family:"Times New Roman",serif;'>Esdras Guillermo Altamirano Campos<br>&nbsp;1890-07-18554</span></p>
+<p style='margin:0cm;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;line-height:150%;'><span style='font-size:16px;line-height:150%;font-family:"Times New Roman",serif;'>Dulce Mar&iacute;a Car&iacute;as Bran</span></p>
+<p style='margin:0cm;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;line-height:150%;'><span style='font-size:16px;line-height:150%;font-family:"Times New Roman",serif;'>1980-19-10478</span></p>
+<p style='margin:0cm;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;line-height:150%;'><span style='font-size:16px;line-height:150%;font-family:"Times New Roman",serif;'>Kevin Ad&aacute;n Fernando Palencia estrada&nbsp;</span></p>
+<p style='margin:0cm;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;line-height:150%;'><span style='font-size:16px;line-height:150%;font-family:"Times New Roman",serif;'>1890-21-10659</span></p>
+<p style='margin:0cm;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;line-height:150%;'><span style='font-size:16px;line-height:150%;font-family:"Times New Roman",serif;'>Angely Dulce Maria Guevara Hern&aacute;ndez&nbsp;</span></p>
+<p style='margin:0cm;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;line-height:150%;'><span style='font-size:16px;line-height:150%;font-family:"Times New Roman",serif;'>1890-21-6340</span></p>
+<p style='margin:0cm;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;line-height:150%;'><span style='font-size:16px;line-height:150%;font-family:"Times New Roman",serif;'>Roberto Carlos Chinchilla Revolorio&nbsp;</span></p>
+<p style='margin:0cm;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;line-height:150%;'><span style='font-size:16px;line-height:150%;font-family:"Times New Roman",serif;'>1890-21-8790</span></p>
+<p style='margin:0cm;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;line-height:150%;'><span style='font-size:16px;line-height:150%;font-family:"Times New Roman",serif;'>&Aacute;lvaro Giovanni Ru&iacute;z Valle&nbsp;<br>&nbsp;1890-21-5482</span></p>
+<p style='margin:0cm;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;line-height:150%;'><span style='font-size:16px;line-height:150%;font-family:"Times New Roman",serif;'>Antony Jeovanny Casta&ntilde;eda r&iacute;os&nbsp;</span></p>
+<p style='margin:0cm;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;line-height:150%;'><span style='font-size:16px;line-height:150%;font-family:"Times New Roman",serif;'>1890-17-15352</span></p>
+<p style='margin:0cm;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;line-height:150%;'><span style='font-size:16px;line-height:150%;font-family:"Times New Roman",serif;'>Marvin Alejandro Estrada Estrada&nbsp;</span></p>
+<p style='margin:0cm;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;line-height:150%;'><span style='font-size:16px;line-height:150%;font-family:"Times New Roman",serif;'>1890-21-14281</span></p>
+<p><span style='font-size:16px;line-height:150%;font-family:"Times New Roman",serif;'><br>&nbsp;</span></p>
+
+
+
                 </div>
             </div>
             <div class="text-center">
