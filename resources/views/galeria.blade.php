@@ -43,11 +43,13 @@
                      <div class="container">
         <h1>Galería de Imágenes</h1>
         <div class="row">
-            <div class="col-md-4">
+        <div class="col-md-4">
                 <div class="card mb-4">
-                    <img src="{{asset('img/fondo_login.png')}}" class="card-img-top" alt="Imagen 1">
+                    <img src="{{asset('img/LOUVER.png')}}" class="card-img-top" alt="Imagen 3">
                     <div class="card-body">
-                        <h5 class="card-title">soluciones_altamirano</h5>
+                        <h5 class="card-title">LOUVERS</h5>
+                    </div>
+                </div>
                     </div>
                 </div>
             </div>
@@ -75,9 +77,96 @@
                     </div>
                 </div>
             </div>
-            <!-- Agrega más imágenes siguiendo el mismo patrón -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="{{asset('img/MESA.jpeg')}}" class="card-img-top" alt="Imagen 3">
+                    <div class="card-body">
+                        <h5 class="card-title">MESA_CENTRO</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="{{asset('img/MESA AZUL.jpeg')}}" class="card-img-top" alt="Imagen 3">
+                    <div class="card-body">
+                        <h5 class="card-title">MESA_ARMABLE</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="{{asset('img/PERGOLA.png')}}" class="card-img-top" alt="Imagen 3">
+                    <div class="card-body">
+                        <h5 class="card-title">PERGOLA</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="{{asset('img/PUERTA COCINA.jpg')}}" class="card-img-top" alt="Imagen 3">
+                    <div class="card-body">
+                        <h5 class="card-title">PUERTA</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="{{asset('img/PUERTA.jpg')}}" class="card-img-top" alt="Imagen 3">
+                    <div class="card-body">
+                        <h5 class="card-title">PUERTA_BLANCA</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="{{asset('img/PUERTA CLOSET.jpg')}}" class="card-img-top" alt="Imagen 3">
+                    <div class="card-body">
+                        <h5 class="card-title">PUERTA_CLOSET</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="{{asset('img/CASETA.jpg')}}" class="card-img-top" alt="Imagen 3">
+                    <div class="card-body">
+                        <h5 class="card-title">FICHA_CASETA</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="{{asset('img/ENCINO.jpg')}}" class="card-img-top" alt="Imagen 3">
+                    <div class="card-body">
+                        <h5 class="card-title">PARQUETON_ENCINO</h5>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="{{asset('img/LOUVERS.png')}}" class="card-img-top" alt="Imagen 3">
+                    <div class="card-body">
+                        <h5 class="card-title">LOUVER</h5>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="{{asset('img/FACHALETA.jpg')}}" class="card-img-top" alt="Imagen 3">
+                    <div class="card-body">
+                        <h5 class="card-title">FACHALETA_MADERA</h5>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="{{asset('img/VIVIENDA.jpg')}}" class="card-img-top" alt="Imagen 3">
+                    <div class="card-body">
+                        <h5 class="card-title">VIVIENDA</h5>
+                    </div>
+                </div>
+
+
+
         </div>
     </div>
+    
 
     <!-- Incluye las bibliotecas de Bootstrap JavaScript (jQuery y Popper.js son requeridos) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
