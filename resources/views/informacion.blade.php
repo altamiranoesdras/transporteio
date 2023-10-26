@@ -128,22 +128,22 @@
 
                         </p>
                         <p>
+                            <p>
 
-                       <p>
-                        <p>
-                        <table style="width: 100%">
+                            <table style="width: 100%">
     <tbody>
         <tr>
             <td>
                 <div style="margin: 0cm 0cm 8pt;">
                     <p style="margin: 0cm 0cm 8pt; line-height: 150%; text-align: center;"><span style="text-align: inherit; font-size: 48px;">
-                            <font face="Times New Roman, serif"><b><span style="background-color: rgb(26, 188, 156);">TEOR&Iacute;A</span></b></font>
-                        </span><strong style="font-family: Calibri, sans-serif; font-size: 11pt;"><span style='font-size:48px;line-height:150%;font-family:"Times New Roman",serif;'><span style="background-color: rgb(26, 188, 156);">&nbsp;DE REDES</span></span></strong></p>
+                            <font face="Times New Roman, serif"><b><span style="background-color: rgb(235, 107, 86);">TEOR&Iacute;A</span></b></font>
+                        </span><strong style="font-family: Calibri, sans-serif; font-size: 11pt;"><span style='font-size:48px;line-height:150%;font-family:"Times New Roman",serif;'><span style="background-color: rgb(235, 107, 86);">&nbsp;DE REDES</span></span></strong></p>
                 </div>
             </td>
         </tr>
     </tbody>
 </table>
+                            </p>
 
                         </p>
 
