@@ -27,7 +27,9 @@ class HomeAdminController extends Controller
     {
 
 
-        $resultado = $this->unificarDatos($request);
+        $resultado = $this->procesarDatos($request);
+
+
 
         return view('home',compact('resultado'));
     }
@@ -92,6 +94,8 @@ class HomeAdminController extends Controller
                 $res->push([
                     'origen' => $origene->nombre,
                     'destino' => $destino->nombre,
+                    'oferta' => $origene->oferta,
+                    'demanda' => $destino->demanda,
                     'precio' => $precios[$index][$indexDestino] ?? 0
                 ]);
             }
@@ -99,5 +103,16 @@ class HomeAdminController extends Controller
 
         return $res->toArray();
 
+    }
+
+    public function procesarDatos(Request $request)
+    {
+        $datos = $this->unificarDatos($request);
+
+
+        //aqui se debe realizar el algoritmo para mostrar resultado
+
+
+        return $datos;
     }
 }
