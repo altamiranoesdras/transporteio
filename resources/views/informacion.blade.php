@@ -130,8 +130,24 @@
                         <p>
 
                        <p>
+                        <p>
+                        <table style="width: 100%">
+    <tbody>
+        <tr>
+            <td>
+                <div style="margin: 0cm 0cm 8pt;">
+                    <p style="margin: 0cm 0cm 8pt; line-height: 150%; text-align: center;"><span style="text-align: inherit; font-size: 48px;">
+                            <font face="Times New Roman, serif"><b><span style="background-color: rgb(26, 188, 156);">TEOR&Iacute;A</span></b></font>
+                        </span><strong style="font-family: Calibri, sans-serif; font-size: 11pt;"><span style='font-size:48px;line-height:150%;font-family:"Times New Roman",serif;'><span style="background-color: rgb(26, 188, 156);">&nbsp;DE REDES</span></span></strong></p>
+                </div>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
-                       <p style="text-align: center;"><span style="background-color: rgb(209, 213, 216);"><strong>TEORIA DE REDES</strong></span></p>
+                        </p>
+
+                    
 <p>La teor&iacute;a de redes es una herramienta poderosa que ha transformado la forma en que entendemos y abordamos problemas en una amplia variedad de disciplinas.</p>
 <p>La teor&iacute;a de redes, tambi&eacute;n conocida como teor&iacute;a de grafos, es un campo interdisciplinario que se ocupa del estudio de las redes y conexiones entre entidades. Estas redes pueden ser encontradas en una amplia variedad de campos, desde la inform&aacute;tica y las redes sociales hasta la biolog&iacute;a, la f&iacute;sica, la sociolog&iacute;a, la log&iacute;stica y m&aacute;s.&nbsp;<br><br>Datos importantes sobre la teor&iacute;a de redes:</p>
 <p>1. La teor&iacute;a de redes se basa en la representaci&oacute;n de sistemas complejos mediante grafos, que consisten en nodos (v&eacute;rtices) y aristas (enlaces) que conectan los nodos.</p>
