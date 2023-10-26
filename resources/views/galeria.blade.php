@@ -43,16 +43,15 @@
                      <div class="container">
         <h1>Galería de Imágenes</h1>
         <div class="row">
-        <div class="col-md-4">
+            <div class="col-md-4">
                 <div class="card mb-4">
                     <img src="{{asset('img/LOUVER.png')}}" class="card-img-top" alt="Imagen 3">
                     <div class="card-body">
                         <h5 class="card-title">LOUVERS</h5>
                     </div>
                 </div>
-                    </div>
-                </div>
             </div>
+
             <div class="col-md-4">
                 <div class="card mb-4">
                     <img src="{{asset('img/logo.png')}}" class="card-img-top" alt="Imagen 2">
@@ -61,6 +60,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="col-md-4">
                 <div class="card mb-4">
                     <img src="{{asset('img/descarga.png')}}" class="card-img-top" alt="Imagen 3">
@@ -69,6 +69,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="col-md-4">
                 <div class="card mb-4">
                     <img src="{{asset('img/unnamed.png')}}" class="card-img-top" alt="Imagen 3">
@@ -77,6 +78,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="col-md-4">
                 <div class="card mb-4">
                     <img src="{{asset('img/MESA.jpeg')}}" class="card-img-top" alt="Imagen 3">
@@ -85,6 +87,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="col-md-4">
                 <div class="card mb-4">
                     <img src="{{asset('img/MESA AZUL.jpeg')}}" class="card-img-top" alt="Imagen 3">
@@ -125,6 +128,7 @@
                     </div>
                 </div>
             </div>
+            
             <div class="col-md-4">
                 <div class="card mb-4">
                     <img src="{{asset('img/CASETA.jpg')}}" class="card-img-top" alt="Imagen 3">
@@ -133,6 +137,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="col-md-4">
                 <div class="card mb-4">
                     <img src="{{asset('img/ENCINO.jpg')}}" class="card-img-top" alt="Imagen 3">
@@ -140,27 +145,34 @@
                         <h5 class="card-title">PARQUETON_ENCINO</h5>
                     </div>
                 </div>
-                <div class="col-md-4">
+            </div>
+            
+            <div class="col-md-4">
                 <div class="card mb-4">
                     <img src="{{asset('img/LOUVERS.png')}}" class="card-img-top" alt="Imagen 3">
                     <div class="card-body">
                         <h5 class="card-title">LOUVER</h5>
                     </div>
                 </div>
-                <div class="col-md-4">
+            </div>
+            
+            <div class="col-md-4">
                 <div class="card mb-4">
                     <img src="{{asset('img/FACHALETA.jpg')}}" class="card-img-top" alt="Imagen 3">
                     <div class="card-body">
                         <h5 class="card-title">FACHALETA_MADERA</h5>
                     </div>
                 </div>
-                <div class="col-md-4">
+            </div>
+
+            <div class="col-md-4">
                 <div class="card mb-4">
                     <img src="{{asset('img/VIVIENDA.jpg')}}" class="card-img-top" alt="Imagen 3">
                     <div class="card-body">
                         <h5 class="card-title">VIVIENDA</h5>
                     </div>
                 </div>
+            </div>
 
 
 
