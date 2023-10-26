@@ -69,7 +69,37 @@
 <p style='margin:0cm;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;'><span style='font-size:16px;font-family:"Times New Roman",serif;'>&nbsp;</span></p>
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:center;line-height:150%;'><span style='font-size:16px;line-height:150%;font-family:"Times New Roman",serif;'>Sanarate 28 de Octubre 2023</span></p>
 
-                     </p>
+
+                     </p> 
+
+                     <P>
+                        <P>
+                            <P>
+                        <P>
+                        <p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:150%;'><span style='font-size:16px;line-height:150%;font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:150%;'><br></p>
+<table style="width: 100%">
+    <tbody>
+        <tr>
+            <td>
+                <div style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'>
+                    <p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:center;line-height:150%;'><strong><span style='font-size:48px;line-height:150%;font-family:"Times New Roman",serif;'>INTRODUCCI&Oacute;N</span></strong></p>
+                </div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p><br></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:150%;'><span style='font-size:16px;line-height:150%;font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:150%;'><span style='font-size:16px;line-height:150%;font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:150%;'><span style='font-size:16px;line-height:150%;font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'><span style='font-size:16px;line-height:150%;font-family:"Times New Roman",serif;'>Las redes de transporte desempe&ntilde;an un papel fundamental en la econom&iacute;a global y la vida cotidiana.</span></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'><span style='font-size:16px;line-height:150%;font-family:"Times New Roman",serif;'>Una red de transporte bien dise&ntilde;ada y optimizada no solo beneficia a las empresas y la econom&iacute;a en general, sino que tambi&eacute;n tiene un impacto positivo en la calidad de vida de las personas. &nbsp;Para lograr una gesti&oacute;n eficiente de estas redes, se recurre a la optimizaci&oacute;n y la toma de decisiones informadas.</span></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:150%;'><span style='font-size:16px;line-height:150%;font-family:"Times New Roman",serif;'>En resumen, tanto en el &aacute;mbito de las redes de transporte como en la gesti&oacute;n de inventarios, la optimizaci&oacute;n desempe&ntilde;a un papel fundamental para garantizar una operaci&oacute;n eficiente, costos reducidos y un mejor servicio al cliente. Estas pr&aacute;cticas son esenciales para la competitividad y la sostenibilidad de las organizaciones en un entorno empresarial cada vez m&aacute;s globalizado y competitivo.</span></p>
+                        </P>
+                            </P>
+                        </P>
+                     </P>
                 </div>
             </div>
             <div class="text-center">
