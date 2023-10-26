@@ -99,7 +99,20 @@
                             </P>
                         </P>
                         <p>
-                        <p style="text-align: center;"><strong><span style="background-color: rgb(247, 218, 100);">REDES DE TRANPORTE</span></strong></p>
+                            <P>
+                            <table style="width: 100%">
+    <tbody>
+        <tr>
+            <td style="text-align: center;">
+                <div style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'>
+                    <p><strong><span style='font-size: 48px; line-height: 150%; font-family: "Times New Roman", serif; background-color: rgb(247, 218, 100);'>REDES DE TRANSPORTE</span></strong></p>
+                </div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+                            </P>
+                     
 <p>Una red de transportes es un conjunto de infraestructuras para el transporte interconectadas entre s&iacute; que permiten el desplazamiento a lo largo y ancho de un territorio utilizando un &uacute;nico medio de transporte o varios de ellos conectados intermodalmente. Seg&uacute;n su configuraci&oacute;n geogr&aacute;fica, una red de transporte puede ser de tipo radial, cuando se desarrolla en forma de ramas a partir de un punto central, en ret&iacute;cula, conectando todos los puntos entre s&iacute; con la menor distancia posible entre ellos, o lineal, con una &uacute;nica rama.</p>
                         </p>
 
