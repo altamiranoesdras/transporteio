@@ -27,9 +27,9 @@ class HomeAdminController extends Controller
     {
 
 
-        dd($this->unificarDatos($request));
+        $resultado = $this->unificarDatos($request);
 
-        return view('home');
+        return view('home',compact('resultado'));
     }
 
     public function dashboard()
