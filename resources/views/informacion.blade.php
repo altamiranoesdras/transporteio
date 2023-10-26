@@ -47,24 +47,28 @@
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:150%;'><span style='font-size:16px;line-height:150%;font-family:"Times New Roman",serif;color:black;'>Ingeniero Richard Ortiz</span></p>
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:150%;'><span style='font-size:16px;line-height:150%;font-family:"Times New Roman",serif;'>&nbsp;</span></p>
 <p style='margin-top:12.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:center;line-height:150%;'><span style='font-size:16px;line-height:150%;font-family:"Times New Roman",serif;color:black;'>&nbsp;</span></p>
-<p style='margin-top:12.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:70.8pt;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:center;line-height:150%;'><strong><span style='font-size:16px;line-height:150%;font-family:"Times New Roman",serif;color:black;'><br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;Investigación sobre Redes de transporte y Utilidad optimización de Inventarios.</span></strong></p>
-<p style='margin-top:12.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:center;line-height:150%;'><span style='font-size:16px;line-height:150%;font-family:"Times New Roman",serif;'>&nbsp;</span></p>
-<p style='margin:0cm;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;'><span style='font-size:16px;font-family:"Times New Roman",serif;'>Esdras Guillermo Altamirano Campos<br>&nbsp;1890-07-18554</span></p>
-<p style='margin:0cm;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;'><span style='font-size:16px;font-family:"Times New Roman",serif;'>Dulce María Carías Bran</span></p>
-<p style='margin:0cm;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;'><span style='font-size:16px;font-family:"Times New Roman",serif;'>1980-19-10478</span></p>
+<p style='margin-top:12.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:70.8pt;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:center;line-height:150%;'><strong><span style='font-size:16px;line-height:150%;font-family:"Times New Roman",serif;color:black;'><br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;Grupo Elite- Redes de Transporte</span></strong></p>
+<p style='margin:0cm;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;'><span style='font-size:16px;font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+<p style='margin:0cm;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;'><span style='font-size:16px;font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+<p style='margin:0cm;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;'><span style='font-size:16px;font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+<p style='margin:0cm;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;'><span style='font-size:16px;font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+<p style='margin:0cm;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;'><span style='font-size:16px;font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+<p style='margin:0cm;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;'><span style='font-size:16px;font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+<p style='margin:0cm;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;'><span style='font-size:16px;font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+<p style='margin:0cm;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;'><span style='font-size:16px;font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+<p style='margin:0cm;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;'><span style='font-size:16px;font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+<p style='margin:0cm;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;'><span style='font-size:16px;font-family:"Times New Roman",serif;'>Esdras Guillermo Altamirano Campos&nbsp;<br>&nbsp;Dulce María Carías Bran&nbsp;</span></p>
 <p style='margin:0cm;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;'><span style='font-size:16px;font-family:"Times New Roman",serif;'>Kevin Adán Fernando Palencia estrada&nbsp;</span></p>
-<p style='margin:0cm;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;'><span style='font-size:16px;font-family:"Times New Roman",serif;'>1890-21-10659</span></p>
 <p style='margin:0cm;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;'><span style='font-size:16px;font-family:"Times New Roman",serif;'>Angely Dulce Maria Guevara Hernández&nbsp;</span></p>
-<p style='margin:0cm;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;'><span style='font-size:16px;font-family:"Times New Roman",serif;'>1890-21-6340</span></p>
 <p style='margin:0cm;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;'><span style='font-size:16px;font-family:"Times New Roman",serif;'>Roberto Carlos Chinchilla Revolorio&nbsp;</span></p>
-<p style='margin:0cm;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;'><span style='font-size:16px;font-family:"Times New Roman",serif;'>1890-21-8790</span></p>
-<p style='margin:0cm;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;'><span style='font-size:16px;font-family:"Times New Roman",serif;'>Álvaro Giovanni Ruíz Valle&nbsp;<br>&nbsp;1890-21-5482</span></p>
+<p style='margin:0cm;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;'><span style='font-size:16px;font-family:"Times New Roman",serif;'>Álvaro Giovanni Ruíz Valle&nbsp;</span></p>
 <p style='margin:0cm;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;'><span style='font-size:16px;font-family:"Times New Roman",serif;'>Antony Jeovanny Castañeda ríos&nbsp;</span></p>
-<p style='margin:0cm;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;'><span style='font-size:16px;font-family:"Times New Roman",serif;'>1890-17-15352</span></p>
 <p style='margin:0cm;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;'><span style='font-size:16px;font-family:"Times New Roman",serif;'>Marvin Alejandro Estrada Estrada&nbsp;</span></p>
-<p style='margin:0cm;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;'><span style='font-size:16px;font-family:"Times New Roman",serif;'>1890-21-14281</span></p>
 <p style='margin:0cm;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;'><span style='font-size:16px;font-family:"Times New Roman",serif;'>&nbsp;</span></p>
 <p style='margin:0cm;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;'><span style='font-size:16px;font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+<p style='margin:0cm;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;'><span style='font-size:16px;font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:center;line-height:150%;'><span style='font-size:16px;line-height:150%;font-family:"Times New Roman",serif;'>Sanarate 28 de Octubre 2023</span></p>
+
                      </p>
                 </div>
             </div>
