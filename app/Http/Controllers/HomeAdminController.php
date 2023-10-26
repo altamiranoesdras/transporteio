@@ -27,9 +27,9 @@ class HomeAdminController extends Controller
     {
 
 
-        dd($this->unificarDatos($request));
+        $resultado = $this->unificarDatos($request);
 
-        return view('home');
+        return view('home',compact('resultado'));
     }
 
     public function dashboard()
@@ -78,9 +78,9 @@ class HomeAdminController extends Controller
         $res = collect();
 
 
-        $origenes = json_decode($request->origenes);
-        $destinos = json_decode($request->destinos);
-        $precios = json_decode($request->precios);
+        $origenes = json_decode($request->origenes) ?? [];
+        $destinos = json_decode($request->destinos) ?? [];
+        $precios = json_decode($request->precios) ?? [];
 
 //        dd($origenes, $destinos, $precios);
 

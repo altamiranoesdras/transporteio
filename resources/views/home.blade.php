@@ -194,6 +194,7 @@
                             <!-- /.card-header -->
                             <div class="card-body" >
 
+                                @dump($resultado)
 
 
                             </div>
