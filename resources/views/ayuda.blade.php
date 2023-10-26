@@ -2,6 +2,14 @@
 
 @section('title_page',__('Ayuda'))
 
+@push('css')
+ <style>
+.CentrarEsteTexto{
+    text-align: center;
+}
+ </style>
+@endpush
+
 @section('content')
 
     <!-- Content Header (Page header) -->
@@ -40,10 +48,10 @@
                      <!--            Contenido
                      ------------------------------------------------------------------------>
                      <p>
-                        <h1>Datos De la Empresa</h1>
+                        <h1 class="CentrarEsteTexto">Datos De la Empresa</h1>
                         <p>Con más de 50 años, hemos evolucionado  
                         la manera de ofrecer y fabricar productos en madera tratada de alta calidad.</p>
-                        <h2>NOSOTROS</h2>
+                        <h2><strong><i>NOSOTROS</i></strong></h2>
                         <p>Lignum es una empresa familiar con sede en Guatemala, con más de 50 años de experiencia en la industria de productos forestales,
                          estamos integrados de forma vertical y cerramos el ciclo completo, desde la genética. </p>
                          <p>siembra y aprovechamiento, industria y carpintería, comercialización, diseño y construcción de casas, pérgolas, decks y otras 
@@ -51,11 +59,11 @@
                      </p>
 
                      <p>
-                        <h3>MISIÓN</h3>
+                        <h3> <strong><i>MISIÓN</i></strong></h3>
                         <p>Lograr nuestros objetivos por medio de esfuerzo, dedicación y un trabajo constante,
                              para ofrecer productos y servicios forestales excelentes que satisfagan las necesidades de 
                              nuestros clientes en el mercado, a través de un proceso sostenible con reforestación.</p>
-                             <h4>VISIÓN</h4>
+                             <h4><strong><i>VISIÓN</i></strong></h4>
                              <p>Ser la empresa líder en Centroamérica de productos forestales sostenibles con el 
                                 medio ambiente y con la sociedad.</p>
                      </p>
