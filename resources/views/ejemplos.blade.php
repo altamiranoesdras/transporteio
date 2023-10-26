@@ -70,6 +70,14 @@
                                 </div>
                             </div>
                         </div>    
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <img src="{{asset('img/ejemplos/5.png')}}" class="card-img-top" alt="Imagen 3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Ejemplo 5 </h5>
+                                </div>
+                            </div>
+                        </div>        
 
                             
 
