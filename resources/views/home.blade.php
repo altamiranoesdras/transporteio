@@ -39,6 +39,28 @@
 
                      <!--            Contenido
                      ------------------------------------------------------------------------>
+                    <form>
+                        <div class="row">
+
+                            <div class="form-group col-6">
+                                <label for="almacen1demanda">Almacén 1 Demanda:</label>
+                                <input type="number" class="form-control" id="almacen1demanda" name="almacen1demanda" placeholder="Ingrese la demanda del Almacén 1">
+                            </div>
+                            <div class="form-group col-6">
+                                <label for="almacen2demanda">Almacén 2 Demanda:</label>
+                                <input type="number" class="form-control" id="almacen2demanda" name="almacen2demanda" placeholder="Ingrese la demanda del Almacén 2">
+                            </div>
+                            <div class="form-group col-6">
+                                <label for="almacen1produccion">Almacén 1 Producción:</label>
+                                <input type="number" class="form-control" id="almacen1produccion" name="almacen1produccion" placeholder="Ingrese la producción del Almacén 1">
+                            </div>
+                            <div class="form-group col-6">
+                                <label for="almacen2produccion">Almacén 2 Producción:</label>
+                                <input type="number" class="form-control" id="almacen2produccion" name="almacen2produccion" placeholder="Ingrese la producción del Almacén 2">
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
                 </div>
             </div>
             <div class="text-center">
