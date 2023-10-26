@@ -158,6 +158,37 @@
                         </p>
 
                      </P>
+
+                     <p>
+
+
+                     <p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:150%;'><br></p>
+<table style="width: 100%">
+    <tbody>
+        <tr>
+            <td>
+                <div style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'>
+                    <p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:center;line-height:150%;'><strong><span style='font-size:48px;line-height:150%;font-family:"Times New Roman",serif;'>&nbsp;</span></strong></p>
+                    <p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:center;line-height:150%;'><strong><span style='font-size: 48px; line-height: 150%; font-family: "Times New Roman", serif; background-color: rgb(243, 121, 52);'>Tipo de redes y sus aplicaciones</span></strong></p>
+                </div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p>&nbsp;<strong><span style='font-size:16px;line-height:150%;font-family:"Times New Roman",serif;'>1. Redes Sociales</span></strong></p>
+<p><br></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:150%;'><span style='font-size:16px;line-height:150%;font-family:"Times New Roman",serif;'>En el &aacute;mbito de las redes sociales, la teor&iacute;a de redes se utiliza para analizar las interacciones entre individuos y comprender la estructura de las comunidades en l&iacute;nea y fuera de l&iacute;nea.</span></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:150%;'><span style='font-size:16px;line-height:150%;font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:150%;'><strong><span style='font-size:16px;line-height:150%;font-family:"Times New Roman",serif;'>2. Redes de Comunicaci&oacute;n</span></strong></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:150%;'><span style='font-size:16px;line-height:150%;font-family:"Times New Roman",serif;'>La teor&iacute;a de redes es esencial en el dise&ntilde;o y la gesti&oacute;n de redes de comunicaci&oacute;n, como Internet y las redes de telefon&iacute;a m&oacute;vil, para optimizar la transferencia de datos y garantizar la conectividad.</span></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:150%;'><span style='font-size:16px;line-height:150%;font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:150%;'><strong><span style='font-size:16px;line-height:150%;font-family:"Times New Roman",serif;'>3. Redes de Transporte</span></strong></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:150%;'><span style='font-size:16px;line-height:150%;font-family:"Times New Roman",serif;'>&nbsp;Las redes de transporte, como carreteras, ferrocarriles, aeropuertos y sistemas de tr&aacute;nsito p&uacute;blico, se modelan y optimizan utilizando la teor&iacute;a de redes para mejorar la movilidad y la log&iacute;stica.<br>&nbsp;</span></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:150%;'><strong><span style='font-size:16px;line-height:150%;font-family:"Times New Roman",serif;'>4. Redes de Distribuci&oacute;n y Log&iacute;stica</span></strong></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:150%;'><span style='font-size:16px;line-height:150%;font-family:"Times New Roman",serif;'>En log&iacute;stica y gesti&oacute;n de la cadena de suministro, la teor&iacute;a de redes se utiliza para optimizar el flujo de bienes y minimizar los costos de transporte y almacenamiento.</span></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:150%;'><strong><span style='font-size:16px;line-height:150%;font-family:"Times New Roman",serif;'><br>&nbsp;5. Algoritmo de expansi&oacute;n m&iacute;nima&nbsp;</span></strong></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:150%;'><span style='font-size:16px;line-height:150%;font-family:"Times New Roman",serif;'>El algoritmo de expansi&oacute;n m&iacute;nima se utiliza com&uacute;nmente en teor&iacute;a de grafos para encontrar un subconjunto de aristas de un grafo ponderado que conecta todos los v&eacute;rtices del grafo sin formar ciclos y cuya suma de pesos es la menor posible. Este problema se conoce como el Problema del &Aacute;rbol de Expansi&oacute;n M&iacute;nima.</span></p>
+                     </p>
                 </div>
             </div>
             <div class="text-center">
