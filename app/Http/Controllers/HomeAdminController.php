@@ -92,7 +92,7 @@ class HomeAdminController extends Controller
                 $res->push([
                     'origen' => $origene->nombre,
                     'destino' => $destino->nombre,
-                    'precio' => $precios[$index][$indexDestino]
+                    'precio' => $precios[$index][$indexDestino] ?? 0
                 ]);
             }
         }
