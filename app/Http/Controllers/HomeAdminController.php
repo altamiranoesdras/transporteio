@@ -23,12 +23,13 @@ class HomeAdminController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
-    public function index()
+    public function index(Request $request)
     {
-        $user = User::with(['shortcuts','options'])->find(auth()->user()->id);
 
 
-        return view('home',compact('user'));
+        $resultado = $this->unificarDatos($request);
+
+        return view('home',compact('resultado'));
     }
 
     public function dashboard()
@@ -69,5 +70,34 @@ class HomeAdminController extends Controller
     public function galeria()
     {
         return view('galeria');
+    }
+
+    public function unificarDatos(Request $request)
+    {
+
+        $res = collect();
+
+
+        $origenes = json_decode($request->origenes) ?? [];
+        $destinos = json_decode($request->destinos) ?? [];
+        $precios = json_decode($request->precios) ?? [];
+
+//        dd($origenes, $destinos, $precios);
+
+
+        foreach ($origenes as $index => $origene) {
+
+            foreach ($destinos as $indexDestino => $destino) {
+
+                $res->push([
+                    'origen' => $origene->nombre,
+                    'destino' => $destino->nombre,
+                    'precio' => $precios[$index][$indexDestino]
+                ]);
+            }
+        }
+
+        return $res->toArray();
+
     }
 }
