@@ -154,6 +154,13 @@
                         <h5 class="card-title">FACHALETA_MADERA</h5>
                     </div>
                 </div>
+                <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="{{asset('img/VIVIENDA.jpg')}}" class="card-img-top" alt="Imagen 3">
+                    <div class="card-body">
+                        <h5 class="card-title">VIVIENDA</h5>
+                    </div>
+                </div>
 
 
 
