@@ -39,6 +39,15 @@
 
                      <!--            Contenido
                      ------------------------------------------------------------------------>
+                     <div class="col-md-4">
+                        <div class="card mb-4">
+                            <img src="{{asset('img/ejemplos/1.png')}}" class="card-img-top" alt="Imagen 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Ejemplo 1</h5>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
             <div class="text-center">
