@@ -40,7 +40,10 @@
                      <!--            Contenido
                      ------------------------------------------------------------------------>
                      <p>
-                        
+                        <h1>Datos De la Empresa</h1>
+                        <p>Con más de 50 años, hemos evolucionado  
+                        la manera de ofrecer y fabricar productos en madera tratada de alta calidad.</p>
+                        <h2></h2>
                      </p>
                 </div>
             </div>
