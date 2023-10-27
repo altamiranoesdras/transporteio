@@ -268,9 +268,9 @@
             },
             data: {
 
-                origenes: @json($origenes ?? []),
+                origenes: @json($origenes ?? [['nombre' => 'Almacen 1', 'oferta' => 0]]),
 
-                destinos: @json($destinos ?? []),
+                destinos: @json($destinos ?? [['nombre' => 'Cliente 1', 'demanda' => 0]]),
 
                 origenBlanco: {
                     nombre: '',
@@ -282,7 +282,7 @@
                     demanda: 0,
                 },
 
-                precios: @json($precios ?? []),
+                precios: @json($precios ?? [[0],[0]]),
 
 
 

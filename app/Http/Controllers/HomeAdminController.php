@@ -28,9 +28,9 @@ class HomeAdminController extends Controller
 
         $datos = $this->datosArrray($request);
 
-        $origenes = json_decode($request->origenes) ?? [];
-        $destinos = json_decode($request->destinos) ?? [];
-        $precios = json_decode($request->precios) ?? [];
+        $origenes = json_decode($request->origenes) ?? null;
+        $destinos = json_decode($request->destinos) ?? null;
+        $precios = json_decode($request->precios) ?? null;
 
         $resultado = [];
 
