@@ -53,7 +53,7 @@
                                             <thead>
                                             <tr>
                                                 <th>Nombre</th>
-                                                <th>Demanda</th>
+                                                <th>Oferta</th>
                                                 <th>Acción</th>
                                             </tr>
                                             </thead>
@@ -194,7 +194,36 @@
                             <!-- /.card-header -->
                             <div class="card-body" >
 
-                                @dump($resultado)
+
+                                <table class="table table-bordered table-sm">
+                                    <thead>
+                                    <tr>
+                                        <th>Almacen</th>
+                                        @foreach($destinos as $destino)
+                                            <th>{{$destino->nombre}}</th>
+                                        @endforeach
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach($origenes as $indexOrigen => $origen)
+                                            <tr>
+                                                <td>{{$origen->nombre}}</td>
+                                                @foreach($destinos as $indexDestino => $destino)
+                                                    <td>{{$resultado[$indexOrigen][$indexDestino]}}</td>
+                                                @endforeach
+                                            </tr>
+                                        @endforeach
+                                    </tbody>
+                                </table>
+
+
+                                <br>
+
+                                <h3>
+                                    Costo total transporte:
+
+                                    <b class="text-success">Q {{nfp($total ?? 0)}}</b>
+                                </h3>
 
 
                             </div>
@@ -227,32 +256,9 @@
             },
             data: {
 
-                origenes: [
-                    {
-                        nombre: 'Almacen 1',
-                        oferta: 160000,
-                    },
-                    {
-                        nombre: 'Almacen 2',
-                        oferta: 120000,
-                    },
-                ],
+                origenes: @json($origenes ?? []),
 
-                destinos: [
-                    {
-                        nombre: 'Cliente 1',
-                        demanda: 80000,
-                    },
-                    {
-                        nombre: 'Cliente 2',
-                        demanda: 70000,
-                    },
-                    {
-                        nombre: 'Cliente 3',
-                        demanda: 90000,
-                    }
-
-                ],
+                destinos: @json($destinos ?? []),
 
                 origenBlanco: {
                     nombre: '',
@@ -264,10 +270,7 @@
                     demanda: 0,
                 },
 
-                precios: [
-                    [3,4,6],
-                    [5,3,5],
-                ],
+                precios: @json($precios ?? []),
 
 
 
