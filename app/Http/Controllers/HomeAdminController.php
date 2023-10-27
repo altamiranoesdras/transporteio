@@ -32,6 +32,12 @@ class HomeAdminController extends Controller
         $destinos = json_decode($request->destinos) ?? [];
         $precios = json_decode($request->precios) ?? [];
 
+        $resultado = [];
+
+        if ($this->demandaSuperaOFerta($request)) {
+            return view('home',compact('resultado','origenes','destinos','precios'))->withErrors(['error' => 'La demanda supera la oferta']);
+        }
+
 
 
         $resultado = $this->transporteCostoMinimo($datos['origenes'], $datos['destinos'], $datos['precios']);
@@ -39,6 +45,18 @@ class HomeAdminController extends Controller
         $total = $this->sumaAsignaciones($resultado, $datos['precios']);
 
         return view('home',compact('resultado','origenes','destinos','precios','total'));
+    }
+
+
+    public function demandaSuperaOFerta(Request $request)
+    {
+        $datos = $this->datosArrray($request);
+
+        $sumaOferta = array_sum($datos['origenes']);
+        $sumaDemanda = array_sum($datos['destinos']);
+
+        return $sumaOferta < $sumaDemanda;
+
     }
 
     public function dashboard()

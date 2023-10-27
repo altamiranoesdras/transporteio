@@ -29,10 +29,11 @@
     <div class="content" id="root">
         <div class="container-fluid">
 
+            @include('layouts.partials.request_errors')
+
             <div class="card card-primary">
                 <div class="card-body">
 
-                    @include('layouts.partials.request_errors')
 
 
                     <form action="{{ route('admin.home') }}" method="get" >
@@ -177,7 +178,7 @@
 
                         <div class="row">
                             <div class="col-sm-12 text-center">
-                                <button type="submit" name="" id="" class="btn btn-success">
+                                <button type="submit" name="procesar" value="1" id="" class="btn btn-success">
                                     Procesar <i class="fa fa-cog" aria-hidden="true"></i>
                                 </button>
                             </div>
@@ -195,36 +196,47 @@
                             <div class="card-body" >
 
 
-                                <table class="table table-bordered table-sm">
-                                    <thead>
-                                    <tr>
-                                        <th>Almacen</th>
-                                        @foreach($destinos as $destino)
-                                            <th>{{$destino->nombre}}</th>
-                                        @endforeach
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                        @foreach($origenes as $indexOrigen => $origen)
-                                            <tr>
-                                                <td>{{$origen->nombre}}</td>
-                                                @foreach($destinos as $indexDestino => $destino)
-                                                    <td>{{$resultado[$indexOrigen][$indexDestino]}}</td>
-                                                @endforeach
-                                            </tr>
-                                        @endforeach
-                                    </tbody>
-                                </table>
+                                @if(request()->procesar)
+                                    @if($resultado)
+                                    <h3>
+                                        <b class="text-success">Forma óptima de distribución</b>
+                                    </h3>
+                                    <table class="table table-bordered table-sm">
+                                        <thead>
+                                        <tr>
+                                            <th>Almacen</th>
+                                            @foreach($destinos as $destino)
+                                                <th>{{$destino->nombre}}</th>
+                                            @endforeach
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach($origenes as $indexOrigen => $origen)
+                                                <tr>
+                                                    <td>{{$origen->nombre}}</td>
+                                                    @foreach($destinos as $indexDestino => $destino)
+                                                        <td>{{$resultado[$indexOrigen][$indexDestino]}}</td>
+                                                    @endforeach
+                                                </tr>
+                                            @endforeach
+                                        </tbody>
+                                    </table>
 
 
-                                <br>
+                                    <br>
 
-                                <h3>
-                                    Costo total transporte:
+                                    <h3>
+                                        Costo total transporte:
 
-                                    <b class="text-success">Q {{nfp($total ?? 0)}}</b>
-                                </h3>
+                                        <b class="text-success">Q {{nfp($total ?? 0)}}</b>
+                                    </h3>
+                                    @else
 
+                                        <h3>
+                                            <b class="text-danger">No se encontró solución</b>
+                                        </h3>
+                                    @endif
+                                @endif
 
                             </div>
                             <!-- /.card-body -->
