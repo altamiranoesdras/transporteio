@@ -26,12 +26,37 @@ class HomeAdminController extends Controller
     public function index(Request $request)
     {
 
+        $datos = $this->datosArrray($request);
 
-        $resultado = $this->procesarDatos($request);
+        $origenes = json_decode($request->origenes) ?? null;
+        $destinos = json_decode($request->destinos) ?? null;
+        $precios = json_decode($request->precios) ?? null;
+
+        $resultado = [];
+
+        if ($this->demandaSuperaOFerta($request)) {
+            return view('home',compact('resultado','origenes','destinos','precios'))->withErrors(['error' => 'La demanda supera la oferta']);
+        }
 
 
 
-        return view('home',compact('resultado'));
+        $resultado = $this->transporteCostoMinimo($datos['origenes'], $datos['destinos'], $datos['precios']);
+
+        $total = $this->sumaAsignaciones($resultado, $datos['precios']);
+
+        return view('home',compact('resultado','origenes','destinos','precios','total'));
+    }
+
+
+    public function demandaSuperaOFerta(Request $request)
+    {
+        $datos = $this->datosArrray($request);
+
+        $sumaOferta = array_sum($datos['origenes']);
+        $sumaDemanda = array_sum($datos['destinos']);
+
+        return $sumaOferta < $sumaDemanda;
+
     }
 
     public function dashboard()
@@ -105,14 +130,94 @@ class HomeAdminController extends Controller
 
     }
 
-    public function procesarDatos(Request $request)
+    public function datosArrray(Request $request)
     {
-        $datos = $this->unificarDatos($request);
+
+        $origenes = json_decode($request->origenes) ?? [];
+        $destinos = json_decode($request->destinos) ?? [];
+        $precios = json_decode($request->precios) ?? [];
+
+        $origenes = collect($origenes)->map(function ($item) {
+            return $item->oferta;
+        })->toArray();
+
+        $destinos = collect($destinos)->map(function ($item) {
+            return $item->demanda;
+        })->toArray();
 
 
-        //aqui se debe realizar el algoritmo para mostrar resultado
 
 
-        return $datos;
+        return [
+            'origenes' => $origenes,
+            'destinos' => $destinos,
+            'precios' => $precios
+        ];
     }
+
+
+    function transporteCostoMinimo($oferta, $demanda, $costos) {
+        $m = count($oferta);
+        $n = count($demanda);
+
+        // Inicializar variables
+        $asignacion = array_fill(0, $m, array_fill(0, $n, 0));
+        $fila = array_fill(0, $m, false);
+        $columna = array_fill(0, $n, false);
+
+        // Bucle principal
+        while (true) {
+            $minimo = INF;
+            $minFila = -1;
+            $minColumna = -1;
+
+            // Encontrar la celda con el costo mínimo
+            for ($i = 0; $i < $m; $i++) {
+                for ($j = 0; $j < $n; $j++) {
+                    if (!$fila[$i] && !$columna[$j] && $costos[$i][$j] < $minimo) {
+                        $minimo = $costos[$i][$j];
+                        $minFila = $i;
+                        $minColumna = $j;
+                    }
+                }
+            }
+
+            // Si no se encuentra una celda con costo mínimo, terminar
+            if ($minFila == -1) {
+                break;
+            }
+
+            // Asignar la mayor cantidad posible a la celda
+            $cantidad = min($oferta[$minFila], $demanda[$minColumna]);
+            $asignacion[$minFila][$minColumna] = $cantidad;
+
+            // Actualizar oferta y demanda
+            $oferta[$minFila] -= $cantidad;
+            $demanda[$minColumna] -= $cantidad;
+
+            // Marcar fila y columna
+            if ($oferta[$minFila] == 0) {
+                $fila[$minFila] = true;
+            }
+            if ($demanda[$minColumna] == 0) {
+                $columna[$minColumna] = true;
+            }
+        }
+
+        return $asignacion;
+    }
+
+    //suma asignaciones
+    function sumaAsignaciones($asignacion, $costos) {
+        $suma = 0;
+        for ($i = 0; $i < count($asignacion); $i++) {
+            for ($j = 0; $j < count($asignacion[$i]); $j++) {
+                $suma += $asignacion[$i][$j] * $costos[$i][$j];
+            }
+        }
+        return $suma;
+    }
+
+
+
 }

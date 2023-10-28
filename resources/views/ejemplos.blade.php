@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title_page',__('Ejemplos'))
+@section('titulo_pagina',__('Ejemplos'))
 
 @section('content')
 
@@ -69,7 +69,7 @@
                                     <h5 class="card-title">Ejemplo 4 </h5>
                                 </div>
                             </div>
-                        </div>    
+                        </div>
                         <div class="col-md-4">
                             <div class="card mb-4">
                                 <img src="{{asset('img/ejemplos/5.png')}}" class="card-img-top" alt="Imagen 3">
@@ -77,7 +77,7 @@
                                     <h5 class="card-title">Ejemplo 5 </h5>
                                 </div>
                             </div>
-                        </div>        
+                        </div>
                         <div class="col-md-4">
                             <div class="card mb-4">
                                 <img src="{{asset('img/ejemplos/6.png')}}" class="card-img-top" alt="Imagen 3">
@@ -85,7 +85,7 @@
                                     <h5 class="card-title">Ejemplo 6 </h5>
                                 </div>
                             </div>
-                        </div>            
+                        </div>
                         <div class="col-md-4">
                             <div class="card mb-4">
                                 <img src="{{asset('img/ejemplos/7.png')}}" class="card-img-top" alt="Imagen 3">
@@ -93,7 +93,7 @@
                                     <h5 class="card-title">Ejemplo 7 </h5>
                                 </div>
                             </div>
-                        </div>                
+                        </div>
                         <div class="col-md-4">
                             <div class="card mb-4">
                                 <img src="{{asset('img/ejemplos/8.png')}}" class="card-img-top" alt="Imagen 3">
@@ -101,7 +101,7 @@
                                     <h5 class="card-title">Ejemplo 8 </h5>
                                 </div>
                             </div>
-                        </div>                    
+                        </div>
                         <div class="col-md-4">
                             <div class="card mb-4">
                                 <img src="{{asset('img/ejemplos/9.png')}}" class="card-img-top" alt="Imagen 3">
@@ -109,9 +109,9 @@
                                     <h5 class="card-title">Ejemplo 9 </h5>
                                 </div>
                             </div>
-                        </div>                        
+                        </div>
 
-                            
+
 
 
                     </div>

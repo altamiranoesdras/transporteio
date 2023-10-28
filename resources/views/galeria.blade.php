@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title_page',__('Galería'))
+@section('titulo_pagina',__('Galería'))
 
 @section('content')
 
@@ -54,7 +54,7 @@
 
             <div class="col-md-4">
                 <div class="card mb-4">
-                    <img src="{{asset('img/logo.png')}}" class="card-img-top" alt="Imagen 2">
+                    <img src="{{asset('img/logo.8.png')}}" class="card-img-top" alt="Imagen 2">
                     <div class="card-body">
                         <h5 class="card-title">Lignum</h5>
                     </div>
@@ -63,7 +63,15 @@
 
             <div class="col-md-4">
                 <div class="card mb-4">
-                    <img src="{{asset('img/descarga.png')}}" class="card-img-top" alt="Imagen 3">
+                    <img src="{{asset('img/descarga.2.png')}}" class="card-img-top" alt="Imagen 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Lignum_2.0</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="{{asset('img/fachada_madera.3.png')}}" class="card-img-top" alt="Imagen 3">
                     <div class="card-body">
                         <h5 class="card-title">Lignum_2.0</h5>
                     </div>
@@ -72,9 +80,49 @@
 
             <div class="col-md-4">
                 <div class="card mb-4">
-                    <img src="{{asset('img/unnamed.png')}}" class="card-img-top" alt="Imagen 3">
+                    <img src="{{asset('img/channels4_profile.1.jpg')}}" class="card-img-top" alt="Imagen 3">
                     <div class="card-body">
-                        <h5 class="card-title">Lignum_3.3</h5>
+                        <h5 class="card-title">Lignum</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="{{asset('img/page_1.10.webp')}}" class="card-img-top" alt="Imagen 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Lignum</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="{{asset('img/planta_madera.12.png')}}" class="card-img-top" alt="Imagen 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Lignum</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="{{asset('img/unnamed.13.png')}}" class="card-img-top" alt="Imagen 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Lignum</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="{{asset('img/fsa_lignum_01.5.jpg')}}" class="card-img-top" alt="Imagen 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Lignum</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="{{asset('img/images.6.jpeg')}}" class="card-img-top" alt="Imagen 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Lignum</h5>
                     </div>
                 </div>
             </div>
@@ -128,7 +176,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="col-md-4">
                 <div class="card mb-4">
                     <img src="{{asset('img/CASETA.jpg')}}" class="card-img-top" alt="Imagen 3">
@@ -146,7 +194,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="col-md-4">
                 <div class="card mb-4">
                     <img src="{{asset('img/LOUVERS.png')}}" class="card-img-top" alt="Imagen 3">
@@ -155,7 +203,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="col-md-4">
                 <div class="card mb-4">
                     <img src="{{asset('img/FACHALETA.jpg')}}" class="card-img-top" alt="Imagen 3">
@@ -178,13 +226,37 @@
 
         </div>
     </div>
-    
 
+
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="{{asset('img/images_2.7.jpeg')}}" class="card-img-top" alt="Imagen 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Lignum</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="{{asset('img/logo_lignum.9.jpg')}}" class="card-img-top" alt="Imagen 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Lignum</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="{{asset('img/page_1_thumb_large.11.webp')}}" class="card-img-top" alt="Imagen 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Lignum</h5>
+                    </div>
+                </div>
+            </div>
     <!-- Incluye las bibliotecas de Bootstrap JavaScript (jQuery y Popper.js son requeridos) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
-                    
+
                 </div>
             </div>
             <div class="text-center">

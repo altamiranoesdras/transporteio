@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title_page',__('Home'))
+@section('titulo_pagina',__('Home'))
 
 @section('content')
 
@@ -29,10 +29,11 @@
     <div class="content" id="root">
         <div class="container-fluid">
 
+            @include('layouts.partials.request_errors')
+
             <div class="card card-primary">
                 <div class="card-body">
 
-                    @include('layouts.partials.request_errors')
 
 
                     <form action="{{ route('admin.home') }}" method="get" >
@@ -53,7 +54,7 @@
                                             <thead>
                                             <tr>
                                                 <th>Nombre</th>
-                                                <th>Demanda</th>
+                                                <th>Oferta</th>
                                                 <th>Acción</th>
                                             </tr>
                                             </thead>
@@ -177,7 +178,7 @@
 
                         <div class="row">
                             <div class="col-sm-12 text-center">
-                                <button type="submit" name="" id="" class="btn btn-success">
+                                <button type="submit" name="procesar" value="1" id="" class="btn btn-success">
                                     Procesar <i class="fa fa-cog" aria-hidden="true"></i>
                                 </button>
                             </div>
@@ -194,8 +195,48 @@
                             <!-- /.card-header -->
                             <div class="card-body" >
 
-                                @dump($resultado)
 
+                                @if(request()->procesar)
+                                    @if($resultado)
+                                    <h3>
+                                        <b class="text-success">Forma óptima de distribución</b>
+                                    </h3>
+                                    <table class="table table-bordered table-sm">
+                                        <thead>
+                                        <tr>
+                                            <th>Almacen</th>
+                                            @foreach($destinos as $destino)
+                                                <th>{{$destino->nombre}}</th>
+                                            @endforeach
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach($origenes as $indexOrigen => $origen)
+                                                <tr>
+                                                    <td>{{$origen->nombre}}</td>
+                                                    @foreach($destinos as $indexDestino => $destino)
+                                                        <td>{{$resultado[$indexOrigen][$indexDestino]}}</td>
+                                                    @endforeach
+                                                </tr>
+                                            @endforeach
+                                        </tbody>
+                                    </table>
+
+
+                                    <br>
+
+                                    <h3>
+                                        Costo total transporte:
+
+                                        <b class="text-success">Q {{nfp($total ?? 0)}}</b>
+                                    </h3>
+                                    @else
+
+                                        <h3>
+                                            <b class="text-danger">No se encontró solución</b>
+                                        </h3>
+                                    @endif
+                                @endif
 
                             </div>
                             <!-- /.card-body -->
@@ -227,32 +268,9 @@
             },
             data: {
 
-                origenes: [
-                    {
-                        nombre: 'Almacen 1',
-                        oferta: 160000,
-                    },
-                    {
-                        nombre: 'Almacen 2',
-                        oferta: 120000,
-                    },
-                ],
+                origenes: @json($origenes ?? [['nombre' => 'Almacen 1', 'oferta' => 0]]),
 
-                destinos: [
-                    {
-                        nombre: 'Cliente 1',
-                        demanda: 80000,
-                    },
-                    {
-                        nombre: 'Cliente 2',
-                        demanda: 70000,
-                    },
-                    {
-                        nombre: 'Cliente 3',
-                        demanda: 90000,
-                    }
-
-                ],
+                destinos: @json($destinos ?? [['nombre' => 'Cliente 1', 'demanda' => 0]]),
 
                 origenBlanco: {
                     nombre: '',
@@ -264,10 +282,7 @@
                     demanda: 0,
                 },
 
-                precios: [
-                    [3,4,6],
-                    [5,3,5],
-                ],
+                precios: @json($precios ?? [[0],[0]]),
 
 
 
