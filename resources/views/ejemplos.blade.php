@@ -38,14 +38,21 @@
 
                     <div class="row">
 
-                        <div class="col-md-4" >
-                             
-                        
+                        <div class="col-md-6" >
+
+                            <div class="card text-left">
+                                <div class="card-body">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=vVg4pfC0IwQ&t=330s&pp=ygUUbWV0b2RvIGRlIHRyYW5zcG9ydGU%3D" allowfullscreen></iframe>
+                                    </div>
+
+                                </div>
+                            </div>
+
 
                         </div>
-                        <div class="col-md-9" >
-                        https://www.youtube.com/watch?v=vVg4pfC0IwQ&t=330s&pp=ygUUbWV0b2RvIGRlIHRyYW5zcG9ydGU%3D   
-                      
+                        <div class="col-md-6" >
+
 
                         </div>
 
