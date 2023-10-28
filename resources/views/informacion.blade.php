@@ -189,6 +189,7 @@
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:150%;'><strong><span style='font-size:16px;line-height:150%;font-family:"Times New Roman",serif;'><br>&nbsp;5. Algoritmo de expansi&oacute;n m&iacute;nima&nbsp;</span></strong></p>
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:150%;'><span style='font-size:16px;line-height:150%;font-family:"Times New Roman",serif;'>El algoritmo de expansi&oacute;n m&iacute;nima se utiliza com&uacute;nmente en teor&iacute;a de grafos para encontrar un subconjunto de aristas de un grafo ponderado que conecta todos los v&eacute;rtices del grafo sin formar ciclos y cuya suma de pesos es la menor posible. Este problema se conoce como el Problema del &Aacute;rbol de Expansi&oacute;n M&iacute;nima.</span></p>
                      </p>
+                     
                 </div>
             </div>
             <div class="text-center">
