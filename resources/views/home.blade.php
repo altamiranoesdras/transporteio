@@ -9,7 +9,7 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1>{{__('Metodo Transporte')}}</h1>
+                    <h1>{{__('METODO DE TRANSPORTE')}}</h1>
                 </div>
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-right">
