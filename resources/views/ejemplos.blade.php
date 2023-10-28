@@ -37,6 +37,21 @@
                 <div class="card-body">
 
                     <div class="row">
+
+                        <div class="col-md-4" >
+                             
+                        
+
+                        </div>
+                        <div class="col-md-8" >
+                             
+                      
+
+                        </div>
+
+
+
+
                         <div class="col-md-4">
                             <div class="card mb-4">
                                 <img src="{{asset('img/ejemplos/1.png')}}" class="card-img-top" alt="Imagen 3">
